@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%d JedAIS ficaram pavê</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@jedais_que_ficaram@ pavê</string>
+		<key>jedais_que_ficaram</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Nenhum jedai ficou</string>
+			<key>one</key>
+			<string>Um jedai ficou</string>
+			<key>two</key>
+			<string>Dois JedAIS ficaram</string>
+			<key>few</key>
+			<string>Poucos JedAIS ficaram</string>
+			<key>many</key>
+			<string>Vários JedAIS ficaram</string>
+			<key>other</key>
+			<string>%d JedAIS ficaram</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

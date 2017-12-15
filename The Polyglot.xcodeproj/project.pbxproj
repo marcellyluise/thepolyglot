@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7755703667507A952B1217A9 /* Pods_The_Polyglot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C505254FCC3B8C753C010F /* Pods_The_Polyglot.framework */; };
+		7D144B1099F855BB2A4794DA /* Pods_The_PolyglotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977D843D8FAA1D358C048248 /* Pods_The_PolyglotUITests.framework */; };
+		FCE0781A4B58DE4E22A6CF5A /* Pods_The_PolyglotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F29DE1D8A921CD14777E749 /* Pods_The_PolyglotTests.framework */; };
 		FD11D2971FE34BD8007ADEA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11D2961FE34BD8007ADEA1 /* AppDelegate.swift */; };
 		FD11D2991FE34BD8007ADEA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11D2981FE34BD8007ADEA1 /* ViewController.swift */; };
 		FD11D29C1FE34BD8007ADEA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD11D29A1FE34BD8007ADEA1 /* Main.storyboard */; };
@@ -14,6 +17,14 @@
 		FD11D2A11FE34BD8007ADEA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD11D29F1FE34BD8007ADEA1 /* LaunchScreen.storyboard */; };
 		FD11D2AC1FE34BD8007ADEA1 /* The_PolyglotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11D2AB1FE34BD8007ADEA1 /* The_PolyglotTests.swift */; };
 		FD11D2B71FE34BD8007ADEA1 /* The_PolyglotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11D2B61FE34BD8007ADEA1 /* The_PolyglotUITests.swift */; };
+		FD11D2C61FE3528D007ADEA1 /* cake.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD11D2C51FE3528D007ADEA1 /* cake.gif */; };
+		FD3A48B51FE3644B00263C2F /* CakeLoversTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3A48B31FE3644B00263C2F /* CakeLoversTableViewCell.swift */; };
+		FD3A48B61FE3644B00263C2F /* CakeLoversTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD3A48B41FE3644B00263C2F /* CakeLoversTableViewCell.xib */; };
+		FD3A48B91FE3678500263C2F /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = FD3A48BB1FE3678500263C2F /* Localizable.stringsdict */; };
+		FD3A48C21FE36A1900263C2F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD3A48C41FE36A1900263C2F /* Localizable.strings */; };
+		FD3A48CE1FE37B8100263C2F /* PolyglotLocalizable Table.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD3A48D01FE37B8100263C2F /* PolyglotLocalizable Table.strings */; };
+		FD693E8A1FE35870009D2819 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD693E891FE35870009D2819 /* Default-568h@2x.png */; };
+		FD9E3DAC1FE35B3B0011B351 /* PolyglotLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E3DAB1FE35B3B0011B351 /* PolyglotLocalizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +45,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24C505254FCC3B8C753C010F /* Pods_The_Polyglot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Polyglot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		354DF35D04805B0E7438D065 /* Pods-The PolyglotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The PolyglotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The PolyglotUITests/Pods-The PolyglotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3991D8EFA9C5A6BB29C5D9BF /* Pods-The Polyglot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Polyglot.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Polyglot/Pods-The Polyglot.release.xcconfig"; sourceTree = "<group>"; };
+		3F29DE1D8A921CD14777E749 /* Pods_The_PolyglotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_PolyglotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A1082C66D82C466A07B442 /* Pods-The PolyglotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The PolyglotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-The PolyglotUITests/Pods-The PolyglotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		662EA0468F5B7024CE45340D /* Pods-The PolyglotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The PolyglotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-The PolyglotTests/Pods-The PolyglotTests.release.xcconfig"; sourceTree = "<group>"; };
+		977D843D8FAA1D358C048248 /* Pods_The_PolyglotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_PolyglotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FC31E42812F26E797719FA /* Pods-The PolyglotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The PolyglotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The PolyglotTests/Pods-The PolyglotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C93CE7B88934CD975A54B126 /* Pods-The Polyglot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Polyglot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The Polyglot/Pods-The Polyglot.debug.xcconfig"; sourceTree = "<group>"; };
 		FD11D2931FE34BD8007ADEA1 /* The Polyglot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Polyglot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD11D2961FE34BD8007ADEA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD11D2981FE34BD8007ADEA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD11D29B1FE34BD8007ADEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD11D29D1FE34BD8007ADEA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD11D2A01FE34BD8007ADEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FD11D2A21FE34BD8007ADEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD11D2A71FE34BD8007ADEA1 /* The PolyglotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The PolyglotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD11D2AB1FE34BD8007ADEA1 /* The_PolyglotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_PolyglotTests.swift; sourceTree = "<group>"; };
 		FD11D2AD1FE34BD8007ADEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD11D2B21FE34BD8007ADEA1 /* The PolyglotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The PolyglotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD11D2B61FE34BD8007ADEA1 /* The_PolyglotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_PolyglotUITests.swift; sourceTree = "<group>"; };
 		FD11D2B81FE34BD8007ADEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD11D2C51FE3528D007ADEA1 /* cake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cake.gif; sourceTree = "<group>"; };
+		FD3A48B31FE3644B00263C2F /* CakeLoversTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeLoversTableViewCell.swift; sourceTree = "<group>"; };
+		FD3A48B41FE3644B00263C2F /* CakeLoversTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CakeLoversTableViewCell.xib; sourceTree = "<group>"; };
+		FD3A48BA1FE3678500263C2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		FD3A48BC1FE367C100263C2F /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "pt-BR"; path = "pt-BR.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
+		FD3A48BD1FE367D500263C2F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = de; path = de.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		FD3A48BE1FE36A1700263C2F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		FD3A48BF1FE36A1800263C2F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FD3A48C31FE36A1900263C2F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FD3A48C51FE36A2500263C2F /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		FD3A48C61FE36A2500263C2F /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FD3A48C71FE36A2500263C2F /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FD3A48C81FE372D800263C2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FD3A48C91FE3730F00263C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = Base; path = Base.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		FD3A48CA1FE374D400263C2F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FD3A48CB1FE374D400263C2F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		FD3A48CF1FE37B8100263C2F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "de.lproj/PolyglotLocalizable Table.strings"; sourceTree = "<group>"; };
+		FD693E891FE35870009D2819 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FD9E3DAB1FE35B3B0011B351 /* PolyglotLocalizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyglotLocalizable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7755703667507A952B1217A9 /* Pods_The_Polyglot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE0781A4B58DE4E22A6CF5A /* Pods_The_PolyglotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +108,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D144B1099F855BB2A4794DA /* Pods_The_PolyglotUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28FD3B783E2A238BBBAAD832 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24C505254FCC3B8C753C010F /* Pods_The_Polyglot.framework */,
+				3F29DE1D8A921CD14777E749 /* Pods_The_PolyglotTests.framework */,
+				977D843D8FAA1D358C048248 /* Pods_The_PolyglotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3AF58D450BB6F7AA2E3E2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C93CE7B88934CD975A54B126 /* Pods-The Polyglot.debug.xcconfig */,
+				3991D8EFA9C5A6BB29C5D9BF /* Pods-The Polyglot.release.xcconfig */,
+				A3FC31E42812F26E797719FA /* Pods-The PolyglotTests.debug.xcconfig */,
+				662EA0468F5B7024CE45340D /* Pods-The PolyglotTests.release.xcconfig */,
+				354DF35D04805B0E7438D065 /* Pods-The PolyglotUITests.debug.xcconfig */,
+				44A1082C66D82C466A07B442 /* Pods-The PolyglotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FD11D28A1FE34BD7007ADEA1 = {
 			isa = PBXGroup;
 			children = (
+				FD3A48D01FE37B8100263C2F /* PolyglotLocalizable Table.strings */,
+				FD3A48C41FE36A1900263C2F /* Localizable.strings */,
+				FD693E891FE35870009D2819 /* Default-568h@2x.png */,
 				FD11D2951FE34BD8007ADEA1 /* The Polyglot */,
 				FD11D2AA1FE34BD8007ADEA1 /* The PolyglotTests */,
 				FD11D2B51FE34BD8007ADEA1 /* The PolyglotUITests */,
 				FD11D2941FE34BD8007ADEA1 /* Products */,
+				DF3AF58D450BB6F7AA2E3E2B /* Pods */,
+				28FD3B783E2A238BBBAAD832 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +167,11 @@
 			isa = PBXGroup;
 			children = (
 				FD11D2961FE34BD8007ADEA1 /* AppDelegate.swift */,
-				FD11D2981FE34BD8007ADEA1 /* ViewController.swift */,
-				FD11D29A1FE34BD8007ADEA1 /* Main.storyboard */,
-				FD11D29D1FE34BD8007ADEA1 /* Assets.xcassets */,
-				FD11D29F1FE34BD8007ADEA1 /* LaunchScreen.storyboard */,
-				FD11D2A21FE34BD8007ADEA1 /* Info.plist */,
+				FD9E3DAD1FE35B4B0011B351 /* Internationalization */,
+				FD9E3DAA1FE35B260011B351 /* Localization */,
+				FD9E3DA91FE35A690011B351 /* Controllers */,
+				FD693E881FE357D6009D2819 /* View */,
+				FD693E871FE357B8009D2819 /* Resources */,
 			);
 			path = "The Polyglot";
 			sourceTree = "<group>";
@@ -125,6 +194,66 @@
 			path = "The PolyglotUITests";
 			sourceTree = "<group>";
 		};
+		FD3A48B71FE3645E00263C2F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A48B31FE3644B00263C2F /* CakeLoversTableViewCell.swift */,
+				FD3A48B41FE3644B00263C2F /* CakeLoversTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FD3A48B81FE3646700263C2F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FD11D29A1FE34BD8007ADEA1 /* Main.storyboard */,
+				FD11D29F1FE34BD8007ADEA1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FD693E871FE357B8009D2819 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD11D29D1FE34BD8007ADEA1 /* Assets.xcassets */,
+				FD11D2C51FE3528D007ADEA1 /* cake.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FD693E881FE357D6009D2819 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A48B81FE3646700263C2F /* Storyboards */,
+				FD3A48B71FE3645E00263C2F /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD9E3DA91FE35A690011B351 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD11D2981FE34BD8007ADEA1 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FD9E3DAA1FE35B260011B351 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				FD9E3DAB1FE35B3B0011B351 /* PolyglotLocalizable.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		FD9E3DAD1FE35B4B0011B351 /* Internationalization */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A48BB1FE3678500263C2F /* Localizable.stringsdict */,
+			);
+			path = Internationalization;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD11D2BB1FE34BD8007ADEA1 /* Build configuration list for PBXNativeTarget "The Polyglot" */;
 			buildPhases = (
+				A2CED9C7FA05461FCB77D1DA /* [CP] Check Pods Manifest.lock */,
 				FD11D28F1FE34BD8007ADEA1 /* Sources */,
 				FD11D2901FE34BD8007ADEA1 /* Frameworks */,
 				FD11D2911FE34BD8007ADEA1 /* Resources */,
+				7C2539FCFC96061BAD54D096 /* [CP] Embed Pods Frameworks */,
+				721C1593CF2AB7544635E291 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD11D2BE1FE34BD8007ADEA1 /* Build configuration list for PBXNativeTarget "The PolyglotTests" */;
 			buildPhases = (
+				62892776A14684A0F698B8FA /* [CP] Check Pods Manifest.lock */,
 				FD11D2A31FE34BD8007ADEA1 /* Sources */,
 				FD11D2A41FE34BD8007ADEA1 /* Frameworks */,
 				FD11D2A51FE34BD8007ADEA1 /* Resources */,
+				1022D4C378E14C2DE88055E0 /* [CP] Embed Pods Frameworks */,
+				569B433B03BFC7FF72A259A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD11D2C11FE34BD8007ADEA1 /* Build configuration list for PBXNativeTarget "The PolyglotUITests" */;
 			buildPhases = (
+				86A017880F57001694549C2C /* [CP] Check Pods Manifest.lock */,
 				FD11D2AE1FE34BD8007ADEA1 /* Sources */,
 				FD11D2AF1FE34BD8007ADEA1 /* Frameworks */,
 				FD11D2B01FE34BD8007ADEA1 /* Resources */,
+				EB0A6BA17C719F111B76A9C5 /* [CP] Embed Pods Frameworks */,
+				0531E0B2DA91217B208CBCC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +352,9 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
+				de,
+				ru,
 			);
 			mainGroup = FD11D28A1FE34BD7007ADEA1;
 			productRefGroup = FD11D2941FE34BD8007ADEA1 /* Products */;
@@ -232,8 +373,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD11D2C61FE3528D007ADEA1 /* cake.gif in Resources */,
 				FD11D2A11FE34BD8007ADEA1 /* LaunchScreen.storyboard in Resources */,
+				FD3A48B61FE3644B00263C2F /* CakeLoversTableViewCell.xib in Resources */,
 				FD11D29E1FE34BD8007ADEA1 /* Assets.xcassets in Resources */,
+				FD3A48CE1FE37B8100263C2F /* PolyglotLocalizable Table.strings in Resources */,
+				FD3A48B91FE3678500263C2F /* Localizable.stringsdict in Resources */,
+				FD3A48C21FE36A1900263C2F /* Localizable.strings in Resources */,
+				FD693E8A1FE35870009D2819 /* Default-568h@2x.png in Resources */,
 				FD11D29C1FE34BD8007ADEA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,12 +401,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0531E0B2DA91217B208CBCC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The PolyglotUITests/Pods-The PolyglotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1022D4C378E14C2DE88055E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The PolyglotTests/Pods-The PolyglotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		569B433B03BFC7FF72A259A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The PolyglotTests/Pods-The PolyglotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62892776A14684A0F698B8FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The PolyglotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721C1593CF2AB7544635E291 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Polyglot/Pods-The Polyglot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C2539FCFC96061BAD54D096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-The Polyglot/Pods-The Polyglot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Polyglot/Pods-The Polyglot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86A017880F57001694549C2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The PolyglotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2CED9C7FA05461FCB77D1DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Polyglot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0A6BA17C719F111B76A9C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The PolyglotUITests/Pods-The PolyglotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD11D28F1FE34BD8007ADEA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9E3DAC1FE35B3B0011B351 /* PolyglotLocalizable.swift in Sources */,
 				FD11D2991FE34BD8007ADEA1 /* ViewController.swift in Sources */,
+				FD3A48B51FE3644B00263C2F /* CakeLoversTableViewCell.swift in Sources */,
 				FD11D2971FE34BD8007ADEA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +599,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FD11D29B1FE34BD8007ADEA1 /* Base */,
+				FD3A48BE1FE36A1700263C2F /* de */,
+				FD3A48C51FE36A2500263C2F /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,8 +609,41 @@
 			isa = PBXVariantGroup;
 			children = (
 				FD11D2A01FE34BD8007ADEA1 /* Base */,
+				FD3A48BF1FE36A1800263C2F /* de */,
+				FD3A48C61FE36A2500263C2F /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FD3A48BB1FE3678500263C2F /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3A48BA1FE3678500263C2F /* en */,
+				FD3A48BC1FE367C100263C2F /* pt-BR */,
+				FD3A48BD1FE367D500263C2F /* de */,
+				FD3A48C91FE3730F00263C2F /* Base */,
+				FD3A48CB1FE374D400263C2F /* ru */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		FD3A48C41FE36A1900263C2F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3A48C31FE36A1900263C2F /* de */,
+				FD3A48C71FE36A2500263C2F /* pt-BR */,
+				FD3A48C81FE372D800263C2F /* en */,
+				FD3A48CA1FE374D400263C2F /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		FD3A48D01FE37B8100263C2F /* PolyglotLocalizable Table.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3A48CF1FE37B8100263C2F /* de */,
+			);
+			name = "PolyglotLocalizable Table.strings";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -319,6 +653,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -363,7 +698,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -376,6 +711,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -414,7 +750,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -424,6 +760,7 @@
 		};
 		FD11D2BC1FE34BD8007ADEA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93CE7B88934CD975A54B126 /* Pods-The Polyglot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +776,7 @@
 		};
 		FD11D2BD1FE34BD8007ADEA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3991D8EFA9C5A6BB29C5D9BF /* Pods-The Polyglot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +792,7 @@
 		};
 		FD11D2BF1FE34BD8007ADEA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FC31E42812F26E797719FA /* Pods-The PolyglotTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +810,7 @@
 		};
 		FD11D2C01FE34BD8007ADEA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662EA0468F5B7024CE45340D /* Pods-The PolyglotTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +828,7 @@
 		};
 		FD11D2C21FE34BD8007ADEA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354DF35D04805B0E7438D065 /* Pods-The PolyglotUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +845,7 @@
 		};
 		FD11D2C31FE34BD8007ADEA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A1082C66D82C466A07B442 /* Pods-The PolyglotUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

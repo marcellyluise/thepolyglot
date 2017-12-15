@@ -7,7 +7,25 @@
 		<key>The Polyglot.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FD11D2921FE34BD8007ADEA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD11D2A61FE34BD8007ADEA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD11D2B11FE34BD8007ADEA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -1,0 +1,12 @@
+{
+    "%d JedAIS ficaram pav\U00ea" =     {
+        NSStringLocalizedFormatKey = "%#@jedais_que_ficaram@ zu essen";
+        "jedais_que_ficaram" =         {
+            NSStringFormatSpecTypeKey = NSStringPluralRuleType;
+            NSStringFormatValueTypeKey = d;
+            one = "Ein Jeday blieb";
+            other = "%d JedAIS blieben";
+            zero = "Kein Jeday blieb";
+        };
+    };
+}
