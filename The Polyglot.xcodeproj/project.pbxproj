@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD11D2971FE34BD8007ADEA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11D2961FE34BD8007ADEA1 /* AppDelegate.swift */; };
+		FD11D2991FE34BD8007ADEA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11D2981FE34BD8007ADEA1 /* ViewController.swift */; };
+		FD11D29C1FE34BD8007ADEA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD11D29A1FE34BD8007ADEA1 /* Main.storyboard */; };
+		FD11D29E1FE34BD8007ADEA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD11D29D1FE34BD8007ADEA1 /* Assets.xcassets */; };
+		FD11D2A11FE34BD8007ADEA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD11D29F1FE34BD8007ADEA1 /* LaunchScreen.storyboard */; };
+		FD11D2AC1FE34BD8007ADEA1 /* The_PolyglotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11D2AB1FE34BD8007ADEA1 /* The_PolyglotTests.swift */; };
+		FD11D2B71FE34BD8007ADEA1 /* The_PolyglotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11D2B61FE34BD8007ADEA1 /* The_PolyglotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD11D2A81FE34BD8007ADEA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD11D28B1FE34BD7007ADEA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD11D2921FE34BD8007ADEA1;
+			remoteInfo = "The Polyglot";
+		};
+		FD11D2B31FE34BD8007ADEA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD11D28B1FE34BD7007ADEA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD11D2921FE34BD8007ADEA1;
+			remoteInfo = "The Polyglot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD11D2931FE34BD8007ADEA1 /* The Polyglot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Polyglot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD11D2961FE34BD8007ADEA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD11D2981FE34BD8007ADEA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD11D29B1FE34BD8007ADEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD11D29D1FE34BD8007ADEA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD11D2A01FE34BD8007ADEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD11D2A21FE34BD8007ADEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD11D2A71FE34BD8007ADEA1 /* The PolyglotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The PolyglotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD11D2AB1FE34BD8007ADEA1 /* The_PolyglotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_PolyglotTests.swift; sourceTree = "<group>"; };
+		FD11D2AD1FE34BD8007ADEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD11D2B21FE34BD8007ADEA1 /* The PolyglotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The PolyglotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD11D2B61FE34BD8007ADEA1 /* The_PolyglotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_PolyglotUITests.swift; sourceTree = "<group>"; };
+		FD11D2B81FE34BD8007ADEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD11D2901FE34BD8007ADEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD11D2A41FE34BD8007ADEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD11D2AF1FE34BD8007ADEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD11D28A1FE34BD7007ADEA1 = {
+			isa = PBXGroup;
+			children = (
+				FD11D2951FE34BD8007ADEA1 /* The Polyglot */,
+				FD11D2AA1FE34BD8007ADEA1 /* The PolyglotTests */,
+				FD11D2B51FE34BD8007ADEA1 /* The PolyglotUITests */,
+				FD11D2941FE34BD8007ADEA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD11D2941FE34BD8007ADEA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD11D2931FE34BD8007ADEA1 /* The Polyglot.app */,
+				FD11D2A71FE34BD8007ADEA1 /* The PolyglotTests.xctest */,
+				FD11D2B21FE34BD8007ADEA1 /* The PolyglotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD11D2951FE34BD8007ADEA1 /* The Polyglot */ = {
+			isa = PBXGroup;
+			children = (
+				FD11D2961FE34BD8007ADEA1 /* AppDelegate.swift */,
+				FD11D2981FE34BD8007ADEA1 /* ViewController.swift */,
+				FD11D29A1FE34BD8007ADEA1 /* Main.storyboard */,
+				FD11D29D1FE34BD8007ADEA1 /* Assets.xcassets */,
+				FD11D29F1FE34BD8007ADEA1 /* LaunchScreen.storyboard */,
+				FD11D2A21FE34BD8007ADEA1 /* Info.plist */,
+			);
+			path = "The Polyglot";
+			sourceTree = "<group>";
+		};
+		FD11D2AA1FE34BD8007ADEA1 /* The PolyglotTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD11D2AB1FE34BD8007ADEA1 /* The_PolyglotTests.swift */,
+				FD11D2AD1FE34BD8007ADEA1 /* Info.plist */,
+			);
+			path = "The PolyglotTests";
+			sourceTree = "<group>";
+		};
+		FD11D2B51FE34BD8007ADEA1 /* The PolyglotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD11D2B61FE34BD8007ADEA1 /* The_PolyglotUITests.swift */,
+				FD11D2B81FE34BD8007ADEA1 /* Info.plist */,
+			);
+			path = "The PolyglotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD11D2921FE34BD8007ADEA1 /* The Polyglot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD11D2BB1FE34BD8007ADEA1 /* Build configuration list for PBXNativeTarget "The Polyglot" */;
+			buildPhases = (
+				FD11D28F1FE34BD8007ADEA1 /* Sources */,
+				FD11D2901FE34BD8007ADEA1 /* Frameworks */,
+				FD11D2911FE34BD8007ADEA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Polyglot";
+			productName = "The Polyglot";
+			productReference = FD11D2931FE34BD8007ADEA1 /* The Polyglot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD11D2A61FE34BD8007ADEA1 /* The PolyglotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD11D2BE1FE34BD8007ADEA1 /* Build configuration list for PBXNativeTarget "The PolyglotTests" */;
+			buildPhases = (
+				FD11D2A31FE34BD8007ADEA1 /* Sources */,
+				FD11D2A41FE34BD8007ADEA1 /* Frameworks */,
+				FD11D2A51FE34BD8007ADEA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD11D2A91FE34BD8007ADEA1 /* PBXTargetDependency */,
+			);
+			name = "The PolyglotTests";
+			productName = "The PolyglotTests";
+			productReference = FD11D2A71FE34BD8007ADEA1 /* The PolyglotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD11D2B11FE34BD8007ADEA1 /* The PolyglotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD11D2C11FE34BD8007ADEA1 /* Build configuration list for PBXNativeTarget "The PolyglotUITests" */;
+			buildPhases = (
+				FD11D2AE1FE34BD8007ADEA1 /* Sources */,
+				FD11D2AF1FE34BD8007ADEA1 /* Frameworks */,
+				FD11D2B01FE34BD8007ADEA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD11D2B41FE34BD8007ADEA1 /* PBXTargetDependency */,
+			);
+			name = "The PolyglotUITests";
+			productName = "The PolyglotUITests";
+			productReference = FD11D2B21FE34BD8007ADEA1 /* The PolyglotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD11D28B1FE34BD7007ADEA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Marcelly Luise";
+				TargetAttributes = {
+					FD11D2921FE34BD8007ADEA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FD11D2A61FE34BD8007ADEA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD11D2921FE34BD8007ADEA1;
+					};
+					FD11D2B11FE34BD8007ADEA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD11D2921FE34BD8007ADEA1;
+					};
+				};
+			};
+			buildConfigurationList = FD11D28E1FE34BD7007ADEA1 /* Build configuration list for PBXProject "The Polyglot" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD11D28A1FE34BD7007ADEA1;
+			productRefGroup = FD11D2941FE34BD8007ADEA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD11D2921FE34BD8007ADEA1 /* The Polyglot */,
+				FD11D2A61FE34BD8007ADEA1 /* The PolyglotTests */,
+				FD11D2B11FE34BD8007ADEA1 /* The PolyglotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD11D2911FE34BD8007ADEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD11D2A11FE34BD8007ADEA1 /* LaunchScreen.storyboard in Resources */,
+				FD11D29E1FE34BD8007ADEA1 /* Assets.xcassets in Resources */,
+				FD11D29C1FE34BD8007ADEA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD11D2A51FE34BD8007ADEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD11D2B01FE34BD8007ADEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD11D28F1FE34BD8007ADEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD11D2991FE34BD8007ADEA1 /* ViewController.swift in Sources */,
+				FD11D2971FE34BD8007ADEA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD11D2A31FE34BD8007ADEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD11D2AC1FE34BD8007ADEA1 /* The_PolyglotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD11D2AE1FE34BD8007ADEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD11D2B71FE34BD8007ADEA1 /* The_PolyglotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD11D2A91FE34BD8007ADEA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD11D2921FE34BD8007ADEA1 /* The Polyglot */;
+			targetProxy = FD11D2A81FE34BD8007ADEA1 /* PBXContainerItemProxy */;
+		};
+		FD11D2B41FE34BD8007ADEA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD11D2921FE34BD8007ADEA1 /* The Polyglot */;
+			targetProxy = FD11D2B31FE34BD8007ADEA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD11D29A1FE34BD8007ADEA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD11D29B1FE34BD8007ADEA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD11D29F1FE34BD8007ADEA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD11D2A01FE34BD8007ADEA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD11D2B91FE34BD8007ADEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD11D2BA1FE34BD8007ADEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD11D2BC1FE34BD8007ADEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U48C7L6PDT;
+				INFOPLIST_FILE = "The Polyglot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AIS-Digital.The-Polyglot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD11D2BD1FE34BD8007ADEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U48C7L6PDT;
+				INFOPLIST_FILE = "The Polyglot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AIS-Digital.The-Polyglot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD11D2BF1FE34BD8007ADEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U48C7L6PDT;
+				INFOPLIST_FILE = "The PolyglotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AIS-Digital.The-PolyglotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Polyglot.app/The Polyglot";
+			};
+			name = Debug;
+		};
+		FD11D2C01FE34BD8007ADEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U48C7L6PDT;
+				INFOPLIST_FILE = "The PolyglotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AIS-Digital.The-PolyglotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Polyglot.app/The Polyglot";
+			};
+			name = Release;
+		};
+		FD11D2C21FE34BD8007ADEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U48C7L6PDT;
+				INFOPLIST_FILE = "The PolyglotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AIS-Digital.The-PolyglotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Polyglot";
+			};
+			name = Debug;
+		};
+		FD11D2C31FE34BD8007ADEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U48C7L6PDT;
+				INFOPLIST_FILE = "The PolyglotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AIS-Digital.The-PolyglotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Polyglot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD11D28E1FE34BD7007ADEA1 /* Build configuration list for PBXProject "The Polyglot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD11D2B91FE34BD8007ADEA1 /* Debug */,
+				FD11D2BA1FE34BD8007ADEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD11D2BB1FE34BD8007ADEA1 /* Build configuration list for PBXNativeTarget "The Polyglot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD11D2BC1FE34BD8007ADEA1 /* Debug */,
+				FD11D2BD1FE34BD8007ADEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD11D2BE1FE34BD8007ADEA1 /* Build configuration list for PBXNativeTarget "The PolyglotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD11D2BF1FE34BD8007ADEA1 /* Debug */,
+				FD11D2C01FE34BD8007ADEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD11D2C11FE34BD8007ADEA1 /* Build configuration list for PBXNativeTarget "The PolyglotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD11D2C21FE34BD8007ADEA1 /* Debug */,
+				FD11D2C31FE34BD8007ADEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD11D28B1FE34BD7007ADEA1 /* Project object */;
+}
