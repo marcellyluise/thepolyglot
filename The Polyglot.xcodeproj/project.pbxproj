@@ -22,7 +22,6 @@
 		FD3A48B61FE3644B00263C2F /* CakeLoversTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD3A48B41FE3644B00263C2F /* CakeLoversTableViewCell.xib */; };
 		FD3A48B91FE3678500263C2F /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = FD3A48BB1FE3678500263C2F /* Localizable.stringsdict */; };
 		FD3A48C21FE36A1900263C2F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD3A48C41FE36A1900263C2F /* Localizable.strings */; };
-		FD3A48CE1FE37B8100263C2F /* PolyglotLocalizable Table.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD3A48D01FE37B8100263C2F /* PolyglotLocalizable Table.strings */; };
 		FD693E8A1FE35870009D2819 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD693E891FE35870009D2819 /* Default-568h@2x.png */; };
 		FD9E3DAC1FE35B3B0011B351 /* PolyglotLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E3DAB1FE35B3B0011B351 /* PolyglotLocalizable.swift */; };
 /* End PBXBuildFile section */
@@ -82,7 +81,6 @@
 		FD3A48C91FE3730F00263C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = Base; path = Base.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		FD3A48CA1FE374D400263C2F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FD3A48CB1FE374D400263C2F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
-		FD3A48CF1FE37B8100263C2F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "de.lproj/PolyglotLocalizable Table.strings"; sourceTree = "<group>"; };
 		FD693E891FE35870009D2819 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FD9E3DAB1FE35B3B0011B351 /* PolyglotLocalizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyglotLocalizable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,7 +139,6 @@
 		FD11D28A1FE34BD7007ADEA1 = {
 			isa = PBXGroup;
 			children = (
-				FD3A48D01FE37B8100263C2F /* PolyglotLocalizable Table.strings */,
 				FD3A48C41FE36A1900263C2F /* Localizable.strings */,
 				FD693E891FE35870009D2819 /* Default-568h@2x.png */,
 				FD11D2951FE34BD8007ADEA1 /* The Polyglot */,
@@ -377,7 +374,6 @@
 				FD11D2A11FE34BD8007ADEA1 /* LaunchScreen.storyboard in Resources */,
 				FD3A48B61FE3644B00263C2F /* CakeLoversTableViewCell.xib in Resources */,
 				FD11D29E1FE34BD8007ADEA1 /* Assets.xcassets in Resources */,
-				FD3A48CE1FE37B8100263C2F /* PolyglotLocalizable Table.strings in Resources */,
 				FD3A48B91FE3678500263C2F /* Localizable.stringsdict in Resources */,
 				FD3A48C21FE36A1900263C2F /* Localizable.strings in Resources */,
 				FD693E8A1FE35870009D2819 /* Default-568h@2x.png in Resources */,
@@ -636,14 +632,6 @@
 				FD3A48CA1FE374D400263C2F /* ru */,
 			);
 			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		FD3A48D01FE37B8100263C2F /* PolyglotLocalizable Table.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD3A48CF1FE37B8100263C2F /* de */,
-			);
-			name = "PolyglotLocalizable Table.strings";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
